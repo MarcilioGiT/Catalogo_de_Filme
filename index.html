@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Livros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Catálogo de Livros Online</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Adicionar Livro</h2>
+      <form id="addBookForm">
+        <label for="title">Título:</label>
+        <input type="text" id="title" required>
+        <label for="author">Autor:</label>
+        <input type="text" id="author" required>
+        <label for="genre">Gênero:</label>
+        <input type="text" id="genre" required>
+        <label for="year">Ano:</label>
+        <input type="number" id="year" required>
+        <label for="rating">Avaliação (1-5):</label>
+        <input type="number" id="rating" min="1" max="5" required>
+        <button type="submit">Adicionar Livro</button>
+      </form>
+    </section>
+    <section>
+      <h2>Buscar Livros</h2>
+      <input type="text" id="searchInput" placeholder="Digite para buscar...">
+      <ul id="bookList"></ul>
+    </section>
+  </main>
+  </div>
+    <div class="footer-creditos">
+      Créditos do site para Marcílio GiT Dev
+    </div>
+    <div class="footer-social">
+  <a href="https://instagram.com/_marciliox" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-icon"/>
+  </a>
+</div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

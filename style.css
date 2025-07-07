@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1;
+  padding: 1;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c526b;
+  color: #fff;
+  padding: 1rem 1;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005f99;
+}
+
+#bookList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#bookList li {
+  background: #eaeaea;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+.instagram-icon {
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-icon:hover {
+  transform: scale(1.1);
+}
+.footer-creditos {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  color: #140f0a;
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .footer-social {
+  text-align: center;
+  margin-top: 1rem;
+  color: #350a86;
+ }
+
+ .footer-social a {
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+ }
+
+ .footer-social a:hover img {
+ transform: scale(0.2);
+ filter: brightness(0.5);
+ filter: hue-rotate(320deg) saturate(1.5);
+ }
